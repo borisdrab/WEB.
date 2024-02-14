@@ -1,0 +1,158 @@
+/*GENERAL*/
+body {
+    border: 8px solid grey;
+    color: white ;
+    background : rgb(27, 34, 58) ;
+    /* background: url('../images/Bill\ Gates.jpeg'); */
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+  }  
+
+/*HEADING*/
+
+  h1,h2,h3 {
+      margin:0;
+      text-transform: uppercase;
+  }
+
+  h1, strong, em {
+    color: rgb(34, 130, 255);
+  }
+  
+  h2 {
+     font-size: 16px;
+     text-transform: uppercase; 
+     margin-top: 8px;
+  }
+
+  h3 {
+      font-size: 16px;
+  }
+
+/*LINKS*/
+
+  a {
+    color: rgb(34, 130, 255); 
+    font-weight: bold;
+  }
+
+  a:hover,
+  a:active {
+     color: #bada55; 
+  }
+
+  p {
+    text-align:left;
+  }
+
+/*ARTICLE*/
+
+  article {
+    border:  3px solid #ccc;
+    margin: 50px;
+    margin-left: auto;
+    margin-right: auto;
+
+    padding: 50px;
+
+    max-width: 420px;
+  }
+
+  header img {
+    width: 80px;
+    float: left;
+    border:0;
+    border-radius: 20%;
+    margin-top: 7px;
+    margin-left: 7px;
+  }
+
+  nav{
+    position: fixed;  
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgb(20, 20, 66);
+    display: inline-block;
+    
+
+  }
+
+
+
+  li {
+      color: white;
+  }
+
+  #main-navigation {
+      
+  }
+
+/*UTILITIES*/
+
+  .italic2 {
+      color:rgb(230, 171, 46);
+      font-style: italic;
+      
+  }
+
+  .highlighted {
+      color: blue;
+  }
+
+  .italic {
+    color: rgb(230, 171, 46);
+    font-style: italic;
+  }
+
+  .chunky {
+    font-weight: bolder;  
+    text-transform: uppercase;
+  }
+
+  .italic3 {
+    color: rgb(230, 171, 46);
+    font-style: italic;
+  }
+
+/*FOOTER*/
+
+ footer img {
+  width: 100px;
+  border-radius: 50%;
+  border: 3px solid rgb(34, 130, 255);
+  margin-top: 20px;
+  float: right;
+  }
+
+ footer a:hover img,
+ footer a:active img {
+    border-color: #bada55;  
+  }
+
+footer2 img{
+  width:100px;
+  border-radius: 50%;
+  border: 3px solid rgb(34, 130, 255);
+  float: left;
+}
+
+footer2 a:hover img,
+footer2 a:active img {
+    border-color: #bada55;  
+  }
+
+footer3 img {
+  width: 200px;  
+  border: 3px solid rgb(34, 130, 255);
+  border-radius: 30%;
+  margin: 20px;
+  
+}
+
+footer3 a:hover img,
+footer3 a:active img {
+    border-color: #bada55;  
+  }
