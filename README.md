@@ -1,2 +1,2 @@
-# Projects.
+# Project.
 Web stránka
